@@ -1,0 +1,141 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class s10abDPCardSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('cards')->insert([
+                'name' => 'ヒナツ (s10a 086/071)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BS10a%5D+%E5%BC%B7%E5%8C%96%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%82%AF+%E3%83%80%E3%83%BC%E3%82%AF%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%BA%E3%83%9E/%E3%83%92%E3%83%8A%E3%83%84(s10a-086-071).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'ミュウツーV (s10b 074/071)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BS10b%5D+%E5%BC%B7%E5%8C%96%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%82%AF+Pok%C3%A9mon+GO/%E3%83%9F%E3%83%A5%E3%82%A6%E3%83%84%E3%83%BCV(s10b-074-071).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'オリジンディアルガ (s10D 075/067)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BS10D%5D+%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%82%AF+%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B2%E3%82%A4%E3%82%B6%E3%83%BC/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A2%E3%83%AB%E3%82%AC(s10D-075-067).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'ナタネの活気 (s10D 078/067)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BS10D%5D+%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%82%AF+%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B2%E3%82%A4%E3%82%B6%E3%83%BC/%E3%83%8A%E3%82%BF%E3%83%8D%E3%81%AE%E6%B4%BB%E6%B0%97(s10D-078-067).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'オリジンパルキア (s10P 071/067)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BS10P%5D+%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%82%AF+%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%B0%E3%83%A9%E3%83%BC/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%B3%E3%83%91%E3%83%AB%E3%82%AD%E3%82%A2(s10P-071-067).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'カイ (s10P 077/067)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BS10P%5D+%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%82%AF+%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%B0%E3%83%A9%E3%83%BC/%E3%82%AB%E3%82%A4(s10P-077-067).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+    }
+}

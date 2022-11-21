@@ -1,0 +1,141 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class sm1MSCardSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('cards')->insert([
+                'name' => 'エーフィGX (sm1S 068/060)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BSM1S%5D+%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+%E3%82%B5%E3%83%B3/%E3%82%A8%E3%83%BC%E3%83%95%E3%82%A3GX(sm1S-068-060).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'ブラッキーGX (sm1M 063/060)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BSM1M%5D+%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+%E3%83%A0%E3%83%BC%E3%83%B3/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BCGX(sm1M-063-060).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'ブラッキーGX (sm1M 069/060)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BSM1M%5D+%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+%E3%83%A0%E3%83%BC%E3%83%B3/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BCGX(sm1M-069-060).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'リーリエ (sm1M 066/060)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BSM1M%5D+%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+%E3%83%A0%E3%83%BC%E3%83%B3/%E3%83%AA%E3%83%BC%E3%83%AA%E3%82%A8(sm1M-066-060).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'ニンフィアGX (sm1+ 057/051)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BSM1%2B%5D+%E5%BC%B7%E5%8C%96%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%82%AF+%E3%82%B5%E3%83%B3%EF%BC%86%E3%83%A0%E3%83%BC%E3%83%B3/%E3%83%8B%E3%83%B3%E3%83%95%E3%82%A3%E3%82%A2GX(sm1M%2B057-051).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+         DB::table('cards')->insert([
+                'name' => 'ニンフィアGX (sm1+ 064/051)',
+                'value_ave_grade1' => 0,
+                'value_ave_grade2' => 0,
+                'value_ave_grade3' => 0,
+                'value_max_grade1' => 0,
+                'value_max_grade2' => 0,
+                'value_max_grade3' => 0,
+                'value_min_grade1' => 0,
+                'value_min_grade2' => 0,
+                'value_min_grade3' => 0,
+                'difference_grade1' => 0,
+                'difference_grade2' => 0,
+                'difference_grade3' => 0,
+                'difference_per_grade1' => 0,
+                'difference_per_grade2' => 0,
+                'difference_per_grade3' => 0,
+                'image' => 'https://pokeka.s3.ap-northeast-1.amazonaws.com/%5BSM1%2B%5D+%E5%BC%B7%E5%8C%96%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%82%AF+%E3%82%B5%E3%83%B3%EF%BC%86%E3%83%A0%E3%83%BC%E3%83%B3/%E3%83%8B%E3%83%B3%E3%83%95%E3%82%A3%E3%82%A2GX(sm1M%2B064-051).jpg',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+         ]);
+    }
+}
