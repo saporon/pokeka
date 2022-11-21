@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        \App\Console\Commands\calucurateValue::class,
+        \App\Console\Commands\deleteold::class
     ];
 
     /**
@@ -24,8 +25,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        //毎日0時更新
+        $schedule->command('command:calucurateValue')
+                 ->daily();
+        $schedule->command('command:deleteold')
+                 ->monthly();
     }
 
     /**

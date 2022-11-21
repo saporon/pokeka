@@ -1,0 +1,106 @@
+.card{
+    height:450px;
+    text-align:center;
+    margin:auto;
+}
+.image{
+    width:180px;
+    height:250px;
+    margin:auto;
+}
+.table{
+    width:800px;
+    height:300px;
+    margin:auto;
+    margin-top:30px;
+    text-align:center;
+}
+.table_title{
+    font-size:20px;
+}
+.back{
+    text-align:left;
+    font-size:25px;
+}
+.user_name{
+    font-size:25px;
+}
+.contents{
+    font-size:20px;
+}
+span{
+    margin-right:40px;
+}
+.comment_page_title{
+    font-size:30px;
+}
+.post-button {
+  width:300px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.post-button:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.comment{
+    border: solid 1px #e0e0e0;
+    background-color: white;
+    font-size:16px;
+}
+.reply-button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin-top:20px;
+}
+.reply-button:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.delete-button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin-top:20px;
+  color:red;
+  float:right;
+  
+}
+.delete-button:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.border-top{
+    border-top:solid 2px #e0e0e0;
+}
+.reply{
+    background-color: white;
+    border-left:solid 5px #e0e0e0;
+    margin-left:100px;
+}
+.user_name_reply{
+    font-size:22px;
+}
+.reply_time{
+    font-size:18px;
+}
+.graph{
+    margin:auto;
+    margin-top:30px;
+}
+.table_text{
+    font-size:30px;
+    margin-top:10px;
+    text-align:center;
+}
